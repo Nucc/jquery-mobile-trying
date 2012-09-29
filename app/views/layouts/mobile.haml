@@ -1,0 +1,27 @@
+%html
+    %head
+        %link{ rel: "stylesheet", href: "http://code.jquery.com/mobile/1.1.1/jquery.mobile-1.1.1.min.css"}
+        %script{ src: "http://code.jquery.com/jquery-1.7.1.min.js"}
+        %script{ src: "http://code.jquery.com/mobile/1.1.1/jquery.mobile-1.1.1.min.js"}
+        = stylesheet_link_tag "application"
+        %meta{ name: "viewport", content: "width=device-width, initial-scale=1" }
+
+    %body
+        %div{"data-role" => "page"}
+
+            %div{"data-role" => "header", "data-position" => "fixed"}
+                = yield_content :header
+
+            %div{"data-role" => "content"}
+                = yield
+
+            %div{"data-role" => "footer", "data-position" => "fixed"}
+                %div{"data-role" => "navbar"}
+                    %ul
+                        %li
+                            %a{:href => "/", "data-icon" => "main"}
+                                Main
+                        %li
+                            %a{:href => "/main/map", "data-icon" => "map"}
+                                Map
+

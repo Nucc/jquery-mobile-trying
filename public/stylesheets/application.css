@@ -1,0 +1,28 @@
+.ui-icon-map {
+    background-image: url(/images/103-map.png);
+    background-repeat: no-repeat;
+
+    width: 26px!important;
+    height: 24px!important;
+    margin-left: -15px !important;
+    box-shadow: none!important;
+    -moz-box-shadow: none!important;
+    -webkit-box-shadow: none!important;
+    -webkit-border-radius: 0 !important;
+    border-radius: 0 !important;
+}
+
+.ui-icon-main {
+    background-image: url(/images/53-house.png);
+    background-repeat: no-repeat;
+
+    width: 26px!important;
+    height: 24px!important;
+    margin-left: -15px !important;
+    box-shadow: none!important;
+    -moz-box-shadow: none!important;
+    -webkit-box-shadow: none!important;
+    -webkit-border-radius: 0 !important;
+    border-radius: 0 !important;
+
+}
